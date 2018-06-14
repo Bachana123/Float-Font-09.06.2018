@@ -81,6 +81,25 @@ nav ul li a{
   text-decoration: none;
 }
 /* header */
+/* after header */
+.after-header {
+  background-color: #BDCCD4;
+  margin-top: 100px;
+  padding: 30px 0;
+}
+.after-header h1 {
+  font-size: 22px;
+  color: #363E97;
+}
+.after-header h1 span {
+  text-transform: uppercase;
+  color: #fff;
+}
+.after-header a {
+  font-size: 22px;
+  color: #fff;
+}
+/* after header */
 /* Banner */
 .banner {
   margin-top: 100px;
@@ -209,6 +228,10 @@ nav ul li a{
 	line-height: 60px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.article-box h1 a {
+  text-decoration: none;
+  color: black;
+}
 /* News section */
 /* Featured section */
 .Featured {
@@ -322,3 +345,59 @@ nav ul li a{
   font-family: Arial, Helvetica, sans-serif;
 }
 /* news section */
+
+/* more news.html */
+
+/* article section */
+.article-section {
+  background-color: #fff;
+}
+.date {
+  color: #363E97;
+  padding: 8px;
+  border: 2px;
+  border-style: solid;
+  border-color: #BDCCD4;
+  margin-top: 30px;
+}
+.date h2 {
+  font-size: 34px;
+  padding-left: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.date h3 {
+  font-size: 12px;
+  text-transform:uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.article-headline {
+  clear: left;
+  font-size: 22px;
+  color: #363E97;
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.artcle-img-news {
+  clear: left;
+  display: block;
+  margin-right: 30px;
+}
+.article-paragraph {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+}
+.article-paragraph p {
+  margin-bottom: 26px;
+}
+/* share */
+.share {
+  background-color: #BDCCD4;
+  padding: 30px 0;
+}
+.share-a {
+  font-size: 22px;
+  color: #fff;
+}
+/* share */
