@@ -162,12 +162,21 @@ nav ul li a{
 	background-color: #fff;
 	text-align: center;
 }
+.Videos-section a:hover {
+  color: #EE4036;
+  transition: color 0.01s linear 0s;
+}
 .Videos-section a {
   text-transform: lowercase;
   color: white;
   text-decoration: none;
 }
-
+.video:hover {
+  border: 2px;
+  border-style: solid;
+  border-color: #EE4036;
+  transition: all 0.01s linear 0s;
+}
 .video h3 {
   line-height: 320px;
   font-family: Arial, Helvetica, sans-serif;
@@ -203,6 +212,10 @@ nav ul li a{
 	text-transform: uppercase;
 	padding: 30px 0;
 }
+.news a:hover {
+  color: #EE4036;
+  transition: color 0.01s linear 0s;
+}
 .news a {
   text-transform: lowercase;
   text-decoration: none;
@@ -231,6 +244,17 @@ nav ul li a{
 }
 .article-box img{
 	display: block;
+}
+.article-box h1:hover {
+  float: left;
+  z-index: 10;
+  width: 270px;
+  height: 232px;
+  color: #363E97;
+  margin-bottom: 188px;
+  background-color: #E6E6E6;
+  opacity: 0.8;
+  transition: all 0.01s linear 0s;
 }
 .article-box h1 {
   height: 60px;
