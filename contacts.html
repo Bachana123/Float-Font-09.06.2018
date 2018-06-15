@@ -12,9 +12,9 @@
   <header>
     <div class="container">
 
-        <a class="header_img float-left" href="index.html">
-          <img src="fotos/html.gif" alt="html">
-        </a>
+      <a class="header_img float-left" href="index.html">
+        <img src="fotos/html.gif" alt="html">
+      </a>
 
       <div class="float-left">
         <nav class="nav line-hight">
@@ -32,42 +32,111 @@
               <a class="list-size hell-blue font-style line-height" href="contacts.html" class="blue">CONTACT</a>
             </li>
           </ul>
-      </div>
-      <div class="float-right">
-        <div class="float-right vertikal-align line-height">
-          <a href="https://gmail.com">
-            <img class="padding inline-block G" src="fotos/G.gif" alt="G">
-          </a>
-          <a href="https://facebook.com">
-            <img class="padding-border inline-block facebook" src="fotos/facebook.gif" alt="Facebook">
-          </a>
-          <a href="https://youtube.com">
-            <img class="padding-border inline-block youtube" src="fotos/youtube.gif" alt="Youtube">
-          </a>
-          <a href="#">
-            <img class="padding-border inline-block lup" src="fotos/lup.gif" alt="Lup">
-          </a>
         </div>
-      </div>
+        <div class="float-right">
+          <div class="float-right vertikal-align line-height">
+            <a href="https://gmail.com">
+              <img class="padding inline-block G" src="fotos/G.gif" alt="G">
+            </a>
+            <a href="https://facebook.com">
+              <img class="padding-border inline-block facebook" src="fotos/facebook.gif" alt="Facebook">
+            </a>
+            <a href="https://youtube.com">
+              <img class="padding-border inline-block youtube" src="fotos/youtube.gif" alt="Youtube">
+            </a>
+            <a href="#">
+              <img class="padding-border inline-block lup" src="fotos/lup.gif" alt="Lup">
+            </a>
+          </div>
+        </div>
 
 
       </nav>
     </div>
 
   </header>
-
-
-
-
-
-  <footer>
+  <section class="about-after-header">
     <div class="container">
-      <div class="footer">
-        <h3 class="float-left">©2017 hyper text murkup language</h3>
-        <h3 class="float-right">created by: Bacho</h3>
+      <div class="float-left">
+        <h1>CONTACT</h1>
       </div>
       <div class="clear"></div>
-    </div>
+    </section>
 
-  </footer>
-</body>
+    <section class="map">
+      <div class="container">
+        <div id="googleMap"></div>
+
+        <script>
+        function myMap() {
+          var mapProp= {
+            center:new google.maps.LatLng(41.717507, 44.785078),
+            zoom:17,
+          };
+          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyuLc4RDNfGcMli09zf-22pjhH5xrzalw&callback=myMap"></script>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts-section">
+    <div class="container container-contacts">
+      <div class="contact-text float-left">
+        <p>8 Merab Aleksidze Street,</br>
+          Tbilisi 0160, Georgia</p>
+          <p>tel.: +332 293 12 23</br>
+            fax.: +332 244 44 44</p>
+            <p>contact@mail.ge</p>
+          </div>
+          <div class="float-right">
+            <div class="contact-structure">
+              <h2>Name</h2>
+              <div class="contact-boxes">...type your name</div>
+            </div>
+            <div class="contact-structure">
+              <h2>E-mail</h2>
+              <div class="contact-boxes">...type your e-mail</div>
+            </div>
+            <div class="contact-structure">
+              <h2>Subject</h2>
+              <div class="contact-boxes">...type the mail subject</div>
+            </div>
+            <div class="contact-structure">
+              <h2>Massage</h2>
+              <div class="contact-boxes-big"></div>
+            </div>
+            <div class="contact-structure">
+              <div class="red-button"><a href="#">SEND</a></div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+      </section>
+      <section class="share">
+        <div class="container">
+          <div class="float-left">
+            <a class="share-a" href="news.html"></a>
+          </div>
+          <div class="float-right">
+            <a href="#"><img src="fotos/f-share.gif" alt="facebook"></a>
+            <a href="#"><img src="fotos/google-share.gif" alt="google"></a>
+            <a href="#"><img src="fotos/tweet.gif" alt="tweeter"></a>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="footer">
+            <h3 class="float-left">©2017 hyper text murkup language</h3>
+            <h3 class="float-right">created by: Bacho</h3>
+          </div>
+          <div class="clear"></div>
+        </div>
+
+      </footer>
+    </body>
