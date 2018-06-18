@@ -212,7 +212,54 @@ nav ul li a{
 	text-transform: uppercase;
 	padding: 30px 0;
 }
-.news a:hover {
+
+
+/* ARTICLE-BOX Hovers */
+.article-box {
+  position: relative;
+  width: 50%;
+}
+.article-box h2{
+  color: #363E97;
+  font-size: 22px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  opacity: 50%;
+  margin: 25px 0 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.article-box a{
+  float: right;
+  margin-top: 75%;
+  text-decoration: none;
+  color: #363E97;
+  text-transform: lowercase;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.article-box .hover {
+  background: rgba(230, 230, 230, 0.8);
+  text-transform: uppercase;
+  position: absolute;
+  top: 38px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.article-box:hover .hover {
+  opacity: 1;
+}
+.article-box:hover h1 {
+  display: none;
+}
+/*.news a:hover {
   color: #EE4036;
   transition: color 0.01s linear 0s;
 }
@@ -220,7 +267,7 @@ nav ul li a{
   text-transform: lowercase;
   text-decoration: none;
   color: #3D58A6;
-}
+}*/
 .article-box:nth-child(1),
 .article-box:nth-child(2),
 .article-box:nth-child(3),
@@ -244,17 +291,6 @@ nav ul li a{
 }
 .article-box img{
 	display: block;
-}
-.article-box h1:hover {
-  float: left;
-  z-index: 10;
-  width: 270px;
-  height: 232px;
-  color: #363E97;
-  margin-bottom: 188px;
-  background-color: #E6E6E6;
-  opacity: 0.8;
-  transition: all 0.01s linear 0s;
 }
 .article-box h1 {
   height: 60px;
@@ -595,4 +631,10 @@ nav ul li a{
 .red-button a {
   text-decoration: none;
   color: #fff;
+}
+@media only screen and (max-width: 1024px) {
+  header .float-left {
+    float: right;
+    position: absolute;
+  }
 }
