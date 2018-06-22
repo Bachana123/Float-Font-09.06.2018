@@ -92,25 +92,24 @@
             <p>contact@mail.ge</p>
           </div>
           <div class="float-right">
-            <div class="contact-structure">
-              <h2>Name</h2>
-              <div class="contact-boxes">...type your name</div>
+            <div class="container-CONTACT">
+              <form action="/action_page.php">
+                <label for="fname" style="margin-left: 20px; color: #f2f2f2; font-size: 20px; font-family: Arial, Helvetica, sans-serif;" >Name</label>
+                <input type="text" id="name" name="firstname" placeholder="...type your name">
+
+                <label for="lname" style="margin-left: 20px; color: #f2f2f2; font-size: 20px; font-family: Arial, Helvetica, sans-serif;" >E-mail</label>
+                <input type="text" id="Email" name="lastname" placeholder="...type your e-mail">
+
+                <label for="subject" style="margin-left: 20px; color: #f2f2f2; font-size: 20px; font-family: Arial, Helvetica, sans-serif;" >Subject</label>
+                <textarea id="subject" name="subject" placeholder="...type the mail subject"></textarea>
+
+                <label for="Massage" style="margin-left: 20px; color: #f2f2f2; font-size: 20px; font-family: Arial, Helvetica, sans-serif;" >Massage</label>
+                <textarea id="subject" name="Massage" placeholder="" style="height:200px"></textarea>
+
+                <input type="submit" value="SEND">
+              </form>
             </div>
-            <div class="contact-structure">
-              <h2>E-mail</h2>
-              <div class="contact-boxes">...type your e-mail</div>
-            </div>
-            <div class="contact-structure">
-              <h2>Subject</h2>
-              <div class="contact-boxes">...type the mail subject</div>
-            </div>
-            <div class="contact-structure">
-              <h2>Massage</h2>
-              <div class="contact-boxes-big"></div>
-            </div>
-            <div class="contact-structure">
-              <div class="red-button"><a href="#">SEND</a></div>
-            </div>
+
           </div>
           <div class="clear"></div>
         </div>
