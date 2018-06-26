@@ -648,8 +648,20 @@ input[type=submit]:hover {
   display: none;
 }
 @media only screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .container{
+  	width: 1024px;
+  	margin: 0 auto;
+  }
+
   .float-resolution {
     display: none;
+    position: absolute;
   }
   .Videos-section {
     display: none;
@@ -694,6 +706,11 @@ input[type=submit]:hover {
   }
 }
 @media only screen and (max-width: 480px) {
+  .container{
+  	width: 480px;
+  	margin: 0 auto;
+  }
+
   header {
     width: 480px;
   }
