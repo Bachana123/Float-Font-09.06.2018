@@ -60,6 +60,10 @@
   padding: 0 10px;
 }
 /* header */
+body{
+	padding-top: 75px;
+	min-width: 320px;
+}
 .lup {
   height: 30px;
 }
